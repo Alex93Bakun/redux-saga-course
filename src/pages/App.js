@@ -1,8 +1,7 @@
+import PeopleTable from '../components/PeopleTable';
 
-const App = () => (
-    <h1>
-        Redux-saga tutorial: lesson #3
-    </h1>
-);
+const App = () => {
+    return <PeopleTable />;
+};
 
 export default App;
